@@ -1,0 +1,11 @@
+#include <unistd.h>
+#include "ft_test.h"
+
+void    ft_putstr(char *str)
+{
+    while(*str)
+    {
+        ft_putchar(*str);
+        str++;
+    }
+}
